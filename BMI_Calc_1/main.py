@@ -16,8 +16,8 @@ def calculate_bmi(weight, height_cm):
 
 def main():
     try:
-        weight = float(input("Введите вес (кг): "))
-        height_cm = float(input("Введите рост (см): "))
+        weight = float(input("Введите вес в кг: "))
+        height_cm = float(input("Введите рост в см: "))
 
         if weight <= 0 or height_cm <= 0:
             raise ValueError
