@@ -20,3 +20,5 @@ def update_plot(rate):
 
 # Create the slider widget
 interact(update_plot, rate=(40, 100, 1))
+
+interact(update_plot, rate=(40, 80, 1))
